@@ -1,0 +1,100 @@
+.form-container {
+    display: flex; /* Utiliza Flexbox para organizar el formulario y el texto */
+    justify-content: space-between; /* Espacio entre el formulario y el texto */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    margin-top: 20px;
+}
+
+.formulario-registro {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    flex: 0 0 55%; /* Toma el 60% del espacio disponible */
+}
+
+.form-text {
+    flex: 0 0 40%; /* Toma el 35% del espacio disponible */
+    margin-left: 20px; /* Espacio a la izquierda del texto */
+    background-color: #f1f1f1; /* Fondo claro para el texto */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-text h3 {
+    margin: 0 0 10px;
+    color: #333; /* Color del título */
+}
+
+.form-text p {
+    color: #555; /* Color del texto */
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se muevan a la siguiente línea si es necesario */
+    margin-bottom: 15px;
+}
+
+.form-item {
+    flex: 1; /* Ocupa el espacio disponible */
+    margin-right: 15px; /* Espaciado a la derecha */
+}
+
+.form-item:last-child {
+    margin-right: 0; /* Elimina el espaciado del último elemento */
+}
+
+.formulario-registro label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.formulario-registro input[type="text"],
+.formulario-registro input[type="email"],
+.formulario-registro input[type="tel"],
+.formulario-registro textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.formulario-registro textarea {
+    resize: vertical; /* Permite cambiar el tamaño solo en la dirección vertical */
+}
+
+.formulario-registro button {
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.formulario-registro button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
+@media (max-width: 600px) {
+    .form-item {
+        margin-right: 0; /* Elimina el espaciado en móviles */
+        flex: 100%; /* Cada elemento ocupa el 100% del ancho */
+    }
+
+    .formulario-registro {
+        padding: 15px;
+    }
+
+    .formulario-registro button {
+        width: 100%;
+    }
+}

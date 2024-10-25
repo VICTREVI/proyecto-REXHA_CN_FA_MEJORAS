@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/jpeg" href="images/logorexha.JPG">
+    <link rel="stylesheet" href="registrate.css">
+</head>
+<body>     
+    <div class="container">
+        <form action="register.php" method="post" class="formulario">
+            <h2 class="titulo">INICIAR SESIÓN</h2>
+            <img src="images/logorexhais.png" alt="Descripción de la imagen" class="imagen-registro">
+
+            <div class="form">
+
+                <div class="usuario">
+                    <label for="">Usuario o correo electronico</label>
+                    <input type="text" name="usuario" placeholder="Ingresa tu usuario">
+                </div>
+
+                <div class="clave">
+                    <label for="">Contraseña</label>
+                    <input type="password" name="clave" placeholder="Ingresa tu contraseña">
+                </div>
+
+                <div class="cuenta">
+                    <div class="botones">
+                       <input class="boton" type="submit" value="LOGIN" name="INICIAR_SESION">
+                       <a href="index.php" class="boton">Salir</a> 
+                    </div>
+                    <div class="recuperar-clave"><br>
+                        <a href="recupera_contra.html" class="pregunta-recuperar">¿Olvidaste tu contraseña?</a> 
+                    </div>
+                    <br>
+                
+                    <a href="registrarte.html" class="boton crear-cuenta">Crear Cuenta</a>
+                </div>                      
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+
+    <script>
+        document.addEventListener('visibilitychange', function() {
+            if (document.hidden) 
+            {
+                document.title = " 😰no te vayas "; // Mostrar mensaje
+            } else {
+                document.title = '😁Gracias por volver '; // Ocultar mensaje
+            }
+        });
+    </script>
+
+</body>
+</html>

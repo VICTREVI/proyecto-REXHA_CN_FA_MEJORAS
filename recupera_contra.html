@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/jpeg" href="images/logorexha.JPG">
+    <link rel="stylesheet" href="registrate.css">
+</head>
+<body>     
+    <div class="container">
+        <form action="register.php" method="post" class="formulario">
+            <h2 class="titulo">RECUPERA TU CUENTA</h2>
+            <img src="images/logorexhais.png" alt="Descripción de la imagen" class="imagen-registro">
+
+            <br>
+
+            <div class="form">
+
+                <div class="usuario">
+                    <label for="">Ingresa tu correo electrónico para buscar tu cuenta.</label>
+                    <input type="text" name="usuario" placeholder="Ingresa tu usuario">
+                </div>
+
+                
+                <div class="cuenta">
+                <input class="boton btn-primary" type="submit" value="BUSCAR" name="INICIAR_SESION">
+                    <a href="index.php" class="boton">CANCELAR</a> 
+                    
+                    <br>
+                
+                </div>                      
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+
+    <script>
+        document.addEventListener('visibilitychange', function() {
+            if (document.hidden) 
+            {
+                document.title = " 😰no te vayas "; // Mostrar mensaje
+            } else {
+                document.title = '😁Gracias por volver '; // Ocultar mensaje
+            }
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.map-container h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.formulario{
+    margin-top: 20px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(images/city.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 420px;
+    background-color: #f1d4a9;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.titulo{
+    font-family:Georgia;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.formulario {
+    padding: 20px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.boton {
+    background-color: #f39200;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex:1;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 1;
+    height: 40px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+
+
+/*PARTE DE LOGIN Y REGISTRO PARA MODIFICAR EL TAMAÑO DE LA IMAGEN*/
+.imagen-registro {
+    max-width: 120%; 
+    height: auto;
+    width: 120px; 
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 15%;
+    overflow: hidden;
+}
+
+/*cerrando la PARTE DE LOGIN Y REGISTRO PARA MODIFICAR EL TAMAÑO DE LA IMAGEN*/
+
+
+/* Nueva sección para "¿Olvidaste tu contraseña?" */
+.recuperar-clave {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.recuperar-clave p {
+    color: #333; /* Color del texto de la pregunta */
+    margin-bottom: 5px; /* Espacio debajo de la pregunta */
+}
+
+.recuperar-clave a {
+    display: inline-block;
+    margin-top: 5px; /* Espacio entre la pregunta y el botón */
+}
+
+.cuenta {
+    text-align: center; /* Centra todos los elementos dentro de .cuenta */
+}
+
+.crear-cuenta {
+    display: inline-block; /* Permite centrarlo */
+    margin-top: 10px; /* Espacio superior para separarlo un poco */
+}

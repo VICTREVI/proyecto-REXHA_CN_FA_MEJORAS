@@ -1,0 +1,79 @@
+.encontraras-contentn {
+    display: flex;
+    flex-direction: column; /* Cambia a columna para evitar que estén en línea */
+    align-items: center;
+    padding: 50px 20px; /* Añadir padding alrededor */
+}
+
+.encontraras-txtn {
+    margin-bottom: 40px; /* Aumentar margen entre secciones */
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+
+.encontraras-txtn h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    line-height: 1.2; /* Ajustar line-height */
+    color: #111419;
+    margin-bottom: 20px; /* Reducir margen inferior */
+}
+
+.encontraras-txtn p {
+    font-size: 18px; /* Aumentar tamaño de fuente */
+    color: #515557;
+    margin-bottom: 20px; /* Ajustar margen inferior */
+    line-height: 1.6; /* Mejorar legibilidad */
+}
+
+
+/*NUEVO SOBRE NOSOTROS EL CONTENIDO*/
+.nosotros-section {
+    background-color: #f0f4f8; /* Color de fondo suave */
+    padding: 40px 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    text-align: center;
+    margin: 20px 0;
+}
+
+.nosotros-section h1 {
+    color: #007bff; /* Color del título */
+    text-align: center; /* Centrar título */
+    margin-bottom: 30px; /* Espaciado inferior */
+    font-size: 2.5rem; /* Tamaño de fuente */
+}
+
+.nosotros-section p {
+    font-size: 1.1rem; /* Tamaño de fuente */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-bottom: 20px; /* Espaciado inferior */
+    
+}
+
+.nosotros-section img {
+    max-width: 100%; /* Asegurar que la imagen sea responsiva */
+    border-radius: 10px; /* Bordes redondeados para imágenes */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.nosotros-section .team-member {
+    text-align: center; /* Centrar texto */
+    margin: 20px 0; /* Espaciado vertical entre miembros */
+}
+
+.nosotros-section .team-member img {
+    width: 150px; /* Ancho fijo para las fotos de los miembros */
+    height: 150px; /* Alto fijo */
+    border-radius: 50%; /* Forma circular */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+.nosotros-section .team-member h3 {
+    color: #343a40; /* Color del nombre */
+    font-size: 1.2rem; /* Tamaño de fuente */
+}
+
+.nosotros-section .team-member p {
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+    color: #6c757d; /* Color más tenue para descripciones */
+}

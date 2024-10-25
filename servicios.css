@@ -1,0 +1,45 @@
+main{
+    position: relative;
+    display: block;
+    unicode-bidi: isolate;
+}
+._sease{
+    background-color: #F4F5F7;
+    padding: 1rem 3% 4rem 3%;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+._fomrnewase{
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    top:0;
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 0px 15px 18px rgb(148,156,161,0.05);
+}
+
+.col-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col-md-8{
+    flex: 0 0 66.6666667%;
+    max-width: 66.666667%;
+}

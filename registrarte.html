@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <link rel="icon" type="image/jpeg" href="images/logorexha.JPG">
+    <link rel="stylesheet" href="registrate.css">
+</head>
+<body>
+    <div class="container">
+        <form action="register.php" method="post" class="formulario">
+            <h2 class="titulo">REGISTRO</h2>
+            <img src="images/logorexhais.png" alt="Descripción de la imagen" class="imagen-registro">
+
+            <div class="form">
+               <div class="nombre">
+                    <label for="">Nombres</label>
+                    <input type="text" name="nombre" placeholder="Ingresa tus nombres">
+                </div>
+
+                <div class="apellido">
+                    <label for="">Apellidos</label>
+                    <input type="text" name="apellido" placeholder="Ingresa tus apellidos">
+                </div>
+
+                <div class="usuario">
+                    <label for="">Usuario</label>
+                    <input type="text" name="usuario" placeholder="Crea un usuario">
+                </div>
+
+                <div class="correo">
+                    <label for="">Correo electrónico</label>
+                    <input type="text" name="email" placeholder="Ingreso tu correo electrónico">
+                </div>
+
+                <div class="clave">
+                    <label for="">Contraseña</label>
+                    <input type="password" name="clave" placeholder="Crea una contraseña">
+                </div>
+
+                <div class="cuenta">
+                    <div class="botones">
+                <input class="boton" type="submit" value="Registrar" name="REGISTRO">
+                    <a href="index.php" class="boton">Salir</a>
+                </div>
+                </div>                      
+            </div>
+        </form>
+    </div>  
+
+    <script>
+        document.addEventListener('visibilitychange', function() {
+            if (document.hidden) 
+            {
+                document.title = " 😰no te vayas "; // Mostrar mensaje
+            } else {
+                document.title = '😁Gracias por volver '; // Ocultar mensaje
+            }
+        });
+    </script>
+</body>
+</html>
